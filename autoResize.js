@@ -1,6 +1,6 @@
-var app = angular.module('loiccombis.auto-resize-textarea', []);
+var app = angular.module('auto-resize-textarea', []);
 
-app.directive("auto-resize-textarea", ['$compile', function($compile){
+app.directive("autoResizeTextarea", ['$compile', function($compile){
 
 
 
@@ -21,7 +21,7 @@ app.directive("auto-resize-textarea", ['$compile', function($compile){
             var div = $compile("<div id=" + id + " style='display:none;overflow-wrap:break-word;white-space:pre-wrap;min-height:" + originalHeight + "px;width:" + element.width() + "px;font-size:" + element.css("font-size")+ "'>" + parsedContent + "</div>")(scope);
 
             var body = angular.element(document).find('body');
-            
+
             body.append(div);
 
             element.height(Math.max(div.height(), originalHeight));
@@ -46,4 +46,3 @@ app.directive("auto-resize-textarea", ['$compile', function($compile){
             }
         };
     }]);
-
