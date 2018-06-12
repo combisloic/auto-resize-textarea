@@ -1,0 +1,23 @@
+{
+  "name": "auto-resize-textarea",
+  "authors": [
+    "Loïc Combis <combis.loic@gmail.com>"
+  ],
+  "description": "AngularJS directive that allows you to automatically resize your textareas to fit its content.",
+  "main": "autoResize.js",
+  "keywords": [
+    "angularjs",
+    "textarea",
+    "auto",
+    "resize"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
