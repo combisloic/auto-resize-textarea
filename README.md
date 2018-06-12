@@ -75,7 +75,7 @@ There is several ways you can contribute to this project :
 - By opening issues.
 - By correcting bugs in the code.
 
-** How do I contribute ?**
+**How do I contribute ?**
 - Fork the repo.
 - Create your own branch.
 - Make your changes.
