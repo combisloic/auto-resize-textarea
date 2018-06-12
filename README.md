@@ -82,6 +82,10 @@ There is several ways you can contribute to this project :
 - Push your changes to your forked repo.
 - Create a pull request on github.
 
+## Authors
+
+[Loïc Combis](https://github.com/combisloic)
+
 ## References
 
 AngularJS [documentation](https://angularjs.org).
