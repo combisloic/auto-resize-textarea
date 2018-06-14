@@ -3,7 +3,8 @@ var app = angular.module('auto-resize-textarea', []);
 app.directive("autoResizeTextarea", ['$compile', function($compile){
 
 
-
+        var originalHeight = undefined;
+        
         var updateHeight = function(scope,element){
 
             if(!originalHeight){

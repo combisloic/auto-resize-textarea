@@ -23,8 +23,10 @@ The `--save` option allows you to register the module in your `bower.json` file.
 ### Load the module in your index.html
 You have downloaded the module, what you need now is to load the module in your application.
 So in *index.html* add a the following line.
+
+:warning: Be sure that you've imported **JQuery** as well.
 ```html
-<!-- Just after angularJS script -->
+<!-- Just after JQuery & angularJS script -->
 <script src="bower_components/auto-resize-textarea/autoResize.js"></script>
 <!-- Just before your app module -->
 ```
